@@ -2,7 +2,7 @@ import time
 import cProfile
 import pstats
 import io
-from ml_kem_fips203 import ml_kem_keygen, ml_kem_encaps, ml_kem_decaps
+from code import ml_kem_keygen, ml_kem_encaps, ml_kem_decaps
 
 ITERATIONS = 1000  # Adjust this based on your CPU speed
 
